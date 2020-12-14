@@ -1,0 +1,40 @@
+[
+  {
+    "userid": 1,
+    "id": 1,
+    "title": "Lorem ipsum dolor sit",
+    "body": "Lorem ipsum dolor sit amet consectetur ."
+  },
+  {
+    "userid": 1,
+    "id": 2,
+    "title": "adipisicing elit. Earum porro fuga.",
+    "body": " cumque nam sapiente commodi adipisci modi autem? Optio." 
+    },
+    {
+      "userid": 1,
+      "id": 3,
+      "title": "Lorem ipsum dolor sit",
+      "body": "Lorem ipsum dolor sit amet consectetur."
+    },
+    {
+      "userid": 1,
+      "id": 4,
+      "title": "Lorem ipsum dolor sit",
+      "body": "Aperiam amet molestias perspiciatis, architecto dolorem."
+    },
+    {
+      "userid": 1,
+      "id": 5,
+      "title": "Lorem ipsum dolor sit",
+      "body": "Reprehenderit! Incidunt tempora illo magni."
+    },
+    {
+      "userid": 1,
+      "id": 6,
+      "title": "Lorem ipsum dolor sit",
+      "body": "Lorem ipsum dolor sit amet consectetur."
+    }
+
+
+]
