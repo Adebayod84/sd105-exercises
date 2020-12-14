@@ -3,7 +3,7 @@ const getPosts = (callback) => {
 
   myRequest.addEventListener('readystatechange', function(){
     if(myRequest.readyState ===4 && myRequest.status === 200) {
-      callback(undefined, JSON.parse(request.responseText);
+      callback(undefined, JSON.parse(request.responseText));
     } else if (myRequest.readyState === 4) {
       callback('something went wrong.');
     }
