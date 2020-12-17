@@ -50,10 +50,6 @@ const createTodoList = todos => {
   })
   return todoList
 }
-getUsers()
-.then(userData => {
-  createUserList(userData);
-});
 
 const closeLists = () => {
   document.querySelectorAll('.open').forEach(element => {
@@ -61,6 +57,12 @@ const closeLists = () => {
     element.classList.remove('open');
   });
 }
+
+getUsers()
+.then(userData => {
+  createUserList(userData);
+});
+
 userListElement.addEventListener('click', e => {
   if (e.target.nodeName === 'LI') {
     const currentUserElement = e.target
